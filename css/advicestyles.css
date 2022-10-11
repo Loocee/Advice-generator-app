@@ -1,6 +1,6 @@
 body{
   background-color: #202632;
-  color: hsl(217, 12%, 63%);
+  color: hsl(193, 38%, 86%);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,13 +8,13 @@ body{
   align-items: center;
   align-content: center;
   min-height: 100vh;
+  font-family: 'Manrope', sans-serif;
 }
 
 .container{
   padding: 2rem;
   background: #313a49;
   width: 512px;
-  /* height: 300px; */
 }
 
 .center{
@@ -28,6 +28,7 @@ body{
 
 h1{
   font-size: 1.2rem;
+  color: hsl(150, 100%, 66%);
 }
 
 .margin1{
@@ -36,6 +37,11 @@ h1{
 
 .margin2{
   margin: 2rem 0;
+}
+
+.container-fluid{
+  font-size: 28px;
+  font-weight: 800;
 }
 
 .dice{
@@ -50,4 +56,36 @@ h1{
 
 .mobile{
   display: none;
+}
+
+/*************************************** active states *****************************************/
+.dice:hover, .dice:active{
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: -1px 1px 60px rgba(82, 255, 168, 1);
+   -webkit-box-shadow: -1px 1px 60px rgba(82, 255, 168, 1);
+   -moz-box-shadow: -1px 1px 60px rgba(82, 255, 168, 1);
+   /* transition: all ease-in-out 0.3s; */
+}
+
+/*************************************** media query *****************************************/
+@media (max-width: 425px) {
+  body{
+    padding: 0 1rem;
+  }
+  .container{
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+
+  .margin3{
+    margin: 2rem 0 3rem;
+  }
 }
