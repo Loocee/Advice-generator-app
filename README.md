@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click to view solution](https://www.frontendmentor.io/solutions/advice-generator-app-using-bootstrap-and-jquery-c8iEwTA8OF)
+- Live Site URL: [See live site here](https://loocee.github.io/Advice-generator-app/)
 
 ## My process
 
